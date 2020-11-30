@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="content-language" content="tr">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2" />
+  <meta name="format-detection" content="telephone=no">
+  <title>Get Connected - Feedback</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/bootstrap.custom.css?1500034040" rel="stylesheet" media="screen" />
+  <link href="css/plugins.custom.css?1500034040" rel="stylesheet" media="screen" />
+
+  <link href="css/style.css" rel="stylesheet" media="screen" />
+  <link rel="stylesheet" href="https://use.fontawesom~e.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="section-pre-header">
+    <div class="container">
+      <div class="col-xs-12 col-md-3">
+        <a href="homepage.html" class="logo"><img src="images/logo.jpg" alt="getconnected - logo" class="img-responsive" data-rjs="3" /></a>
+        <a href="https://www.sjsu.edu" target="_blank"> <img src="images/logo.png" style="height:50px;"></a>
+      </div>
+      <div class="col-xs-12 col-md-9 no-padding-xs no-padding-sm" style="margin-top:25px;">
+        <div class="top-wrapper">
+          <a href="search.html" class="top-link"><i class="fa fa-search" aria-hidden="true" style="margin-right: 10px;"></i>Search Other Profiles</a>
+          <a href="profile.html" class="top-link"><i class="fa fa-user" aria-hidden="true" style="margin-right: 10px;"></i>Myprofile</a>
+          <a href="logout.html" class="top-link"><i class="fa fa-sign-out" aria-hidden="true" style="margin-right: 10px;"></i>Logout</a>
+        </div>
+        <div class="left-wrapper">
+          <a href="faq.html" class="top-link">FAQ</a>
+          <a href="contactus.html" class="top-link">Contact Us</a>
+          <a href="FeedbackForm.html" class="top-link">Feedback</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section-home" style="margin-top:100px;margin-bottom:100px;">
+    <div class="container">
+      <!-- Map Column -->
+      <div class="row ">
+        <center>
+          <div style="width:500px;"class="text-left">
+              <div class="control-group form-group">
+                <div class="controls">
+                  <label>Name:</label>
+                  <input  name = "name" type = "text" size = "25" maxlength = "30" required  class="form-control" id="name">
+                </div>
+              </div>
+
+              <div class="control-group form-group">
+                <div class="controls">
+                  <label>Email Address:</label>
+                  <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                </div>
+              </div>
+
+              <div class="control-group form-group">
+                <div class="controls">
+                  <label>Comments:</label>
+                  <textarea id="message" class="form-control" name = "comments" rows = "4" cols = "36" required>Enter your feedback here.</textarea>
+                </div>
+              </div>
+
+              <div class="control-group form-group">
+                <div class="controls">
+                  <label>Rate our service:</label>
+                  <select id="rate" class="form-control"  name = "rating" required>
+                      <option selected>1 Bad</option>
+                      <option selected>2</option>
+                      <option selected>3</option>
+                      <option selected>4</option>
+                      <option selected>5 Great</option>
+                  </select>
+                </div>
+              </div>
+
+                    <input id="feedbacksubmit" type = "submit" value = "Submit">
+                    <input type = "reset" value = "Clear">
+
+            </div>
+
+          </center>
+          </div>
+        </div>
+      </div>
+          <br><br><br>
+          <div class="clearfix"></div>
+
+          <div class="section-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-sm-7 col-md-8 no-padding-xs">
+                  <div class="bg-grey">
+                    <div class="margin-bottom-20"><img src="~/Content/assets/images/logoFooter.png" alt="" class="img-responsive"></div>
+                    <div class="margin-bottom-10"> </div>
+                    <p class="wide no-margin-bottom"> </p><br /><p>Get Connected - 2020   <a href="https://www.sjsu.edu" target="_blank"><img src="images/logo.png" style="margin-top:-10px;height:40px;"></a></p>
+                  </div>
+                </div>
+
+                <div style="margin-top: 50px;" class="hidden-xs hidden-sm col-md-2">
+                  <div class="row">
+
+                    <div class="col-xs-8 margin-top-15">
+                      <ul class="list-unstyled list-custom">
+                        <li><a href="profile.html">My Profile</a></li>
+                        <li><a href="FeedbackForm.html">Feedback</a></li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div style="margin-top: 50px;" class="col-xs-12 col-sm-5 col-md-2 no-padding-xs">
+                  <ul class="list-unstyled list-custom no-margin-bottom">
+                    <li><a href="contactus.html"  rel="nofollow"> Contact Us</a></li>
+                    <li><a href="faq.html"  rel="nofollow">FAQ</a></li></ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-firestore.js"></script>
+          <script src="js/script.js"></script>
+          <script>
+
+
+          </script>
+
+        </body>
+        </html>

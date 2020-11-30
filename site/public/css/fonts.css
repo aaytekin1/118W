@@ -1,0 +1,64 @@
+@font-face{
+	font-family: 'AvenirNext';
+	src: url('../fonts/avenir/AvenirNext-Regular.eot');
+	src: url('../fonts/avenir/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/avenir/AvenirNext-Regular.woff2') format('woff2'),
+	url('../fonts/avenir/AvenirNext-Regular.woff') format('woff'),
+	url('../fonts/avenir/AvenirNext-Regular.ttf') format('truetype'),
+	url('../fonts/avenir/AvenirNext-Regular.svg#AvenirNext-Regular') format('svg');
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: 'AvenirNext';
+	src: url('../fonts/avenir/AvenirNext-Medium.eot');
+	src: url('../fonts/avenir/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/avenir/AvenirNext-Medium.woff2') format('woff2'),
+	url('../fonts/avenir/AvenirNext-Medium.woff') format('woff'),
+	url('../fonts/avenir/AvenirNext-Medium.ttf') format('truetype'),
+	url('../fonts/avenir/AvenirNext-Medium.svg#AvenirNext-Medium') format('svg');
+	font-weight: 500;
+}
+
+@font-face{
+	font-family: 'AvenirNext';
+	src: url('../fonts/avenir/AvenirNext-Bold.eot');
+	src: url('../fonts/avenir/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/avenir/AvenirNext-Bold.woff2') format('woff2'),
+	url('../fonts/avenir/AvenirNext-Bold.woff') format('woff'),
+	url('../fonts/avenir/AvenirNext-Bold.ttf') format('truetype'),
+	url('../fonts/avenir/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
+	font-weight: Bold;
+}
+
+@font-face{
+	font-family: 'AvenirNext';
+	src: url('../fonts/avenir/AvenirNext-Heavy.eot');
+	src: url('../fonts/avenir/AvenirNext-Heavy.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/avenir/AvenirNext-Heavy.woff2') format('woff2'),
+	url('../fonts/avenir/AvenirNext-Heavy.woff') format('woff'),
+	url('../fonts/avenir/AvenirNext-Heavy.ttf') format('truetype'),
+	url('../fonts/avenir/AvenirNext-Heavy.svg#AvenirNext-Heavy') format('svg');
+	font-weight: 900;
+}
+
+@font-face{
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome/fontawesome-webfont.eot?v=4.6.3');
+	src: url('../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+	url('../fonts/fontawesome/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),
+	url('../fonts/fontawesome/fontawesome-webfont.woff?v=4.6.3') format('woff'),
+	url('../fonts/fontawesome/fontawesome-webfont.ttf?v=4.6.3') format('truetype'),
+	url('../fonts/fontawesome/fontawesome-webfont.svg?v=4.6.3#fontawesomeRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url('../fonts/glyphicons/glyphicons-halflings-Regular.eot');
+	src: url('../fonts/glyphicons/glyphicons-halflings-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/glyphicons/glyphicons-halflings-Regular.woff') format('woff'),
+	url('../fonts/glyphicons/glyphicons-halflings-Regular.ttf') format('truetype'),
+	url('../fonts/glyphicons/glyphicons-halflings-Regular.svg#glyphicons_halflingsRegular') format('svg');
+}
